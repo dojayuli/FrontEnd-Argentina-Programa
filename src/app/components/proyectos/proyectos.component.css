@@ -1,0 +1,46 @@
+.contenedor{
+    background-color: rgb(98, 15, 181);
+    width: 90%;
+    margin: 16px auto;
+    border-radius: 28px;
+    padding: 20px;
+    color: rgb(220, 189, 249);
+
+}
+.contenedor-proyecto{
+    margin: 30px 0 0 0 ;
+}
+.contenedor-proyecto a {
+    margin: 0px 30px;
+    background-color: rgb(66, 18, 88);
+    padding: 8px 16px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.contenedor-proyecto a button{
+    
+    background-color: rgb(161, 31, 193);
+    color: white;
+    font-size: 14px;
+    padding: 4px 12px;
+    width: 90%;
+    border-style: none;
+  
+}
+@media(max-width: 585px){
+    .contenedor-proyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor{
+        text-align: center;
+    }
+    .contenedor-proyecto a{
+        padding: 8px 16px;
+    }
+}
